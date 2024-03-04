@@ -1,11 +1,3 @@
-
-.nav-bar{
-    display: inline-flex;
-}
-
-ul{
-    color: red;
-}
 .shopping-head{
     display: flex;
     justify-content: space-around;
@@ -51,5 +43,11 @@ ul{
 }
 .lists p{
     margin: 0;
+}
+.nav-bar{
+    display: inline-flex;
+}
 
+ul{
+    color: red;
 }
