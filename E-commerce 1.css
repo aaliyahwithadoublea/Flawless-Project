@@ -1,0 +1,46 @@
+.shopping-head{
+    display: flex;
+    justify-content: space-around;
+}
+.shopping-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.list{
+    height: 450px;
+    width: 270px;
+}
+.shopping-btn{
+    background-color: transparent;
+    color: pink;
+    border: 2px solid pink;
+    height: 50px;
+    width: 150px;
+}
+
+.shopping-btn:hover{
+    background-color: pink;
+    color: white;
+}
+
+ label{
+    font-size: 20px;
+  color: black;
+  cursor: pointer;
+  margin-right: 0px;
+  padding: 0px;
+}
+.list-p{
+    color: #b9b0b0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.lists p{
+    margin: 0;
+}
