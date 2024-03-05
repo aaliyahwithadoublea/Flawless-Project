@@ -5,6 +5,15 @@ body{
 .shopping-head{
     display: flex;
     justify-content: space-around;
+    margin-top: 4rem;
+}
+.shopping-head h2{
+    position: relative;
+    left: -140px;
+}
+.shopping-head button{
+    position: relative;
+    right: -140px;
 }
 .shopping-list{
     display: flex;
@@ -13,19 +22,25 @@ body{
     gap: 1.5rem;
     margin-top: 2rem;
     margin-left: 10%;
-    margin-right: 10%;
-    
+    margin-right: 10%;    
 }
+
 .list{
     height: 450px;
     width: 270px;
 }
+/*@media(max-width:900px){
+    .list{
+        width: 150px;
+    }
+}*/
 .shopping-btn{
     background-color: transparent;
     color: pink;
     border: 2px solid pink;
     height: 50px;
     width: 150px;
+    cursor: pointer;
 }
 
 .shopping-btn:hover{
@@ -103,4 +118,35 @@ color: white;
 font-size: 100px;
 margin-left: 5rem;
 margin-top: 0rem;
+}
+
+/* CODE FOR THE THIRD SECTION*/
+.third-section{
+    height: 100vh;
+    margin-top: 20rem;
+    background-color: aliceblue;
+}
+.third-section img{
+    float: left;
+    padding-top: 8rem;
+    padding-left: 8rem;
+    padding-bottom: 8rem;
+    height: 600px;
+    width: 470px;
+}
+.third-section div{
+    background-color: palevioletred;
+    width: 450px;
+    position: relative;
+    top: 15rem;
+    margin-left: 46rem;
+}
+.third-section div h2{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+.third-section div p{
+    line-height: 1.5;
 }
