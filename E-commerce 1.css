@@ -2,6 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.shopping{
+    margin-top: 7rem;
+}
+
+.new-Arrival{
+    font-size: 60px;
+    margin-top: 0rem;
+}
+
 .shopping-head{
     display: flex;
     justify-content: space-around;
@@ -26,10 +36,11 @@ body{
     border: 2px solid pink;
     height: 50px;
     width: 150px;
+    font-weight: bold;
 }
 
 .shopping-btn:hover{
-    background-color: pink;
+    background-color: rgb(251,75,122);
     color: white;
 }
 
@@ -122,7 +133,7 @@ margin-top: 0rem;
 
 .Shop-Now-Btn:hover{
     background-color: white;
-    color: pink;
+    color: rgb(251,75,122);
 }
 
 .flawless{ /*design for the flawless logo */
