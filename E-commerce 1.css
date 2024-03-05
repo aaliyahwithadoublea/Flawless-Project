@@ -76,6 +76,7 @@ body{
 .first-nav{
     display: flex;
     gap: 2rem;
+    font-size: 24px ;
 
 }
 
@@ -118,6 +119,56 @@ color: white;
 font-size: 100px;
 margin-left: 5rem;
 margin-top: 0rem;
+}
+
+.Shop-Now-Btn { /*button for the shop now*/
+    border: 2px solid white;
+    background-color: transparent;
+    position: relative;
+    top: -6rem;
+    margin-left: 5rem;
+    height:60px ;
+    width: 160px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.Shop-Now-Btn:hover{
+    background-color: white;
+    color: pink;
+}
+
+.flawless{ /*design for the flawless logo */
+margin-right: 10rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;
+}
+
+.Shop-Now-Btn { /*button for the shop now*/
+    border: 2px solid white;
+    background-color: transparent;
+    position: relative;
+    top: -6rem;
+    margin-left: 5rem;
+    height:60px ;
+    width: 160px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.Shop-Now-Btn:hover{
+    background-color: white;
+    color: pink;
+}
+
+.flawless{ /*design for the flawless logo */
+margin-right: 10rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;
 }
 
 /* CODE FOR THE THIRD SECTION*/
