@@ -2,33 +2,123 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Code for the 2nd Section*/
+
+/*CODE FOR 1ST SECTION-- NAV BAR*/
+.nav-bar{
+    display: flex;
+    justify-content:space-between ;
+    gap: 2rem;
+    font-size: 30px;
+    color: white;
+    padding: 2rem;
+    
+}
+@media(max-width:968px){   /*Media query to fix responsiveness, wraps the icon area in the heading*/
+    .nav-bar{
+        flex-wrap: wrap;
+        
+    }
+    .first-nav{
+        flex-wrap: wrap;
+    }
+}
+
+.first-nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem ;
+
+}
+
+.container{
+    background-image: url(image/picture\ 6.jpg);
+    background-size:cover ;
+    /* height: 50rem; */
+    width: 100%;
+    background-position:center ;
+    background-attachment: scroll;
+}
+
+.price{
+    font-size: 2rem; /*for the price 0.00 on the navbar  */
+    margin-top: 1rem;
+}
+
+
+.line{
+border: 0.2px solid rgb(177, 177, 177);
+}
+
+.first-line{
+margin-top: 4rem;
+color: white;
+font-size: 1.2rem;
+font-weight: lighter;
+margin-left: 5rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.second-line{
+line-height: 7rem;
+color: white;
+font-size: 6.25rem;
+margin-left: 5rem;
+margin-top: 0rem;
+margin-bottom: 2rem;
+}
+
+@media(max-width:500px){
+    .second-line{
+        font-size: 4rem;
+    }
+}
+.Shop-Now-Btn { /*button for the shop now*/
+    border: 2px solid white;
+    background-color: transparent;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    height:60px ;
+    width: 160px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.Shop-Now-Btn:hover{
+    background-color: white;
+    color: pink;
+}
+
+.flawless{ /*design for the flawless logo */
+margin-right: 10rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 2.5rem;
+}
+
+
+/* CODE FOR THE SECOND SECTION*/
+
 .shopping-head{
     display: flex;
     justify-content: space-around;
     margin-top: 4rem;
 }
-.shopping-head h2{
-    position: relative;
-    left: -140px;
-}
-.shopping-head button{
-    position: relative;
-    right: -140px;
-}
+
 .shopping-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;    
+    padding-left: 10%;
+    padding-right: 10%;   
 }
 
 .list{
-    height: 450px;
-    width: 270px;
+    height: 28.125rem;
+    width: 16.875rem;
 }
 /*@media(max-width:900px){
     .list{
@@ -67,288 +157,105 @@ body{
 
 
 
-/*CODE FOR 1ST SECTION-- NAV BAR*/
-.nav-bar{
-    display: flex;
-    justify-content:space-between ;
-    gap: 2rem;
-    font-size: 30px;
-    color: white;
-    padding: 2rem;
-    
-}
-
-.first-nav{
-    display: flex;
-    gap: 2rem;
-    font-size: 24px ;
-
-}
-
-.container{
-    background-image: url(image/picture\ 6.jpg);
-    background-size: cover;
-    border: 2px solid none;
-    height: 800px;
-    background-position: center ;
-    background-attachment: fixed;
-    
-}
-
-.price{
-    font-size: 32px; /*for the price 0.00 on the navbar  */
-    margin-top: 1rem;
-}
-
-.icons{
-    gap: 10rem; /*for the icons on the navbar*/
-    
-}
-
-.line{
-border: 0.2px solid rgb(177, 177, 177);
-}
-
-.first-line{
-margin-top: 4rem;
-color: white;
-font-size: 20px;
-font-weight: lighter;
-margin-left: 5rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.second-line{
-line-height: 7rem;
-color: white;
-font-size: 100px;
-margin-left: 5rem;
-margin-top: 0rem;
-}
-
-.Shop-Now-Btn { /*button for the shop now*/
-    border: 2px solid white;
-    background-color: transparent;
-    position: relative;
-    top: -6rem;
-    margin-left: 5rem;
-    height:60px ;
-    width: 160px;
-    box-sizing: border-box;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-.Shop-Now-Btn:hover{
-    background-color: white;
-    color: pink;
-}
-
-.flawless{ /*design for the flawless logo */
-margin-right: 10rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 40px;
-}
-
-.Shop-Now-Btn { /*button for the shop now*/
-    border: 2px solid white;
-    background-color: transparent;
-    position: relative;
-    top: -6rem;
-    margin-left: 5rem;
-    height:60px ;
-    width: 160px;
-    box-sizing: border-box;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-.Shop-Now-Btn:hover{
-    background-color: white;
-    color: pink;
-}
-
-.flawless{ /*design for the flawless logo */
-margin-right: 10rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 40px;
-}
 
 
 /* CODE FOR THE THIRD SECTION*/
+
+
+.thir{
+    height: 100%;
+}
 .third-section{
-    height: 100vh;
-    margin-top: 20rem;
-    background-color: aliceblue;
+    display: flex;
+    width: 100%;
+    margin-top: 8rem;
+    background-color: #F8F8FF;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 .third-section img{
-    float: left;
-    padding-top: 8rem;
+    height: 41.25rem;
     padding-left: 8rem;
     padding-bottom: 8rem;
-    height: 600px;
-    width: 470px;
+    padding-top: 8rem;
 }
+
 .third-section div{
-    background-color: palevioletred;
-    width: 450px;
-    position: relative;
-    top: 15rem;
-    margin-left: 46rem; 
-}
-.third-section div h2{
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: lighter;
-    
+    margin: auto 5rem ;
+    width: 28.125rem;
 }
 .third-section div p{
-    line-height: 1.5;
-}body{
-    margin: 0;
-    padding: 0;
+    line-height: 2.0;
+    color:#959595;
 }
-
-.shopping{
-    margin-top: 7rem;
-}
-
-.new-Arrival{
-    font-size: 60px;
-    margin-top: 0rem;
-}
-
-.shopping-head{
-    display: flex;
-    justify-content: space-around;
-}
-.shopping-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 2rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
-.list{
-    height: 450px;
-    width: 270px;
-}
-.shopping-btn{
-    background-color: transparent;
-    color: pink;
-    border: 2px solid pink;
+.third-section-btn{ 
+    width: 100px;
     height: 50px;
-    width: 150px;
-    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #FA2D64;
+    color: #FA2D64;
+    margin-bottom: 3rem;
 }
-
-.shopping-btn:hover{
-    background-color: rgb(251,75,122);
+.third-section-btn:hover{
+    background-color: #FA2D64;
     color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
- label{
-    font-size: 20px;
-  color: black;
-  cursor: pointer;
-  margin-right: 0px;
-  padding: 0px;
-}
-.list-p{
-    color: #b9b0b0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-.lists p{
-    margin: 0;
-}
-.nav-bar{
-    display: flex;
-    justify-content:space-between ;
-    gap: 2rem;
-    font-size: 30px;
-    color: white;
-    padding: 2rem;
-    
-}
 
-.first-nav{
-    display: flex;
-    gap: 2rem;
-    font-size: 24px ;
-
-}
-
-.container{
-    background-image: url(image/picture\ 6.jpg);
-    background-size: cover;
-    border: 2px solid none;
-    height: 800px;
-    background-position: center ;
-    background-attachment: fixed;
-    
-}
-
-.price{
-    font-size: 32px; /*for the price 0.00 on the navbar  */
-    margin-top: 1rem;
-}
 
 .icons{
-    gap: 10rem; /*for the icons on the navbar*/
-    
+    padding-top: 4.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 4rem;
+    background-color:#F8F8FF ;
 }
 
-.line{
-border: 0.2px solid rgb(177, 177, 177);
+.icons div img{
+    height: 4.375rem;
+    border-radius: 50%;
 }
-
-.first-line{
-margin-top: 4rem;
-color: white;
-font-size: 20px;
-font-weight: lighter;
-margin-left: 5rem;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.second-line{
-line-height: 7rem;
-color: white;
-font-size: 100px;
-margin-left: 5rem;
-margin-top: 0rem;
-}
-
-.Shop-Now-Btn { /*button for the shop now*/
-    border: 2px solid white;
-    background-color: transparent;
-    position: relative;
-    top: -6rem;
-    margin-left: 5rem;
-    height:60px ;
-    width: 160px;
-    box-sizing: border-box;
+.icons div{
+    flex-basis: 350px;
     text-align: center;
-    font-weight: bold;
-    color: white;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.custom-hr{
+    width: 75%; 
+  margin: 0 auto;
+  background-color: #b9b0b0; 
+  height: 0.2px; 
 }
 
-.Shop-Now-Btn:hover{
-    background-color: white;
-    color: rgb(251,75,122);
+
+@media (max-width: 600px){
+    .third-section img{
+        height: 21.25rem;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+    .icons{
+        flex-wrap: wrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 0.4rem;
+    }
+    .icons div{
+        flex-basis: 3rem;
+    }
+    .thir{
+        height: 100%;
+    }
 }
 
-.flawless{ /*design for the flawless logo */
-margin-right: 10rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 40px;
-}
+
+/* CODE FOR THE FOURTH SECTION */
 
 .container2{
     background-image: url(image/picture\ 7.jpg);
@@ -415,13 +322,18 @@ font-size: 40px;
     fill: white;
   }
 
-  /*fifth section */
+
+
+  /* CODE FOR FIFTH SECTION */
+
+  
   .first-text{
     text-align: center;
     font-size: 55px;
-    gap: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    overflow-wrap: break-word;
+    margin: 0;
     
   }
 
@@ -431,10 +343,116 @@ font-size: 40px;
     color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    overflow-wrap: break-word;
+    margin: 0;
 
   }
 
 .cont{
-    line-height: 0;
     margin-top: 8rem;
+}
+
+
+
+
+/* CODE FOR 7TH SECTION */
+
+
+.seventh-section{
+    height: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ECECFF;
+    padding-bottom: 5rem;
+}
+.seventh-images{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+}
+.seventh-images img{
+    height: 18.75rem;
+    width: 18.75rem;
+    padding-left: 1rem;
+}
+
+
+/* CODE FOR EIGHT SECTION */
+
+.icons8{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color:#F8F8FF ;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+@media(max-width:500px){
+    .icons8{
+        flex-wrap: wrap;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.icons8 div img{
+    height: 40px;
+    border-radius: 50%;
+    margin: auto 1rem;
+}
+.icons8 .icon8-subclass div p{
+    margin: 0;
+    padding: 0;
+}
+.icons8 div{
+    flex-basis: 350px;
+    text-align: start;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.icon8-subclass{
+    display: flex;
+}
+
+
+
+/* CODE FOR NINTH SECTION */
+
+
+.ninth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ECECFF;
+    padding-top: 6rem;
+    border-bottom: 1px solid #ECECFF ;
+    background-color: #F8F8FF;
+}
+.ninth-sub{
+    display: flex;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+.ninth-sub-sub{
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+
+
+/* CODE FOR FINAL SECTION */
+
+.final p{
+    margin: 0;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #F8F8FF;
 }
