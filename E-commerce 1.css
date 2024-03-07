@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+ 
 /*CODE FOR 1ST SECTION-- NAV BAR*/
 .nav-bar{
     display: flex;
@@ -11,25 +11,25 @@ body{
     font-size: 30px;
     color: white;
     padding: 2rem;
-    
+   
 }
 @media(max-width:968px){   /*Media query to fix responsiveness, wraps the icon area in the heading*/
     .nav-bar{
         flex-wrap: wrap;
-        
+       
     }
     .first-nav{
         flex-wrap: wrap;
     }
 }
-
+ 
 .first-nav{
     display: flex;
     gap: 2rem;
     font-size: 1.5rem ;
-
+ 
 }
-
+ 
 .container{
     background-image: url(image/picture\ 6.jpg);
     background-size:cover ;
@@ -38,17 +38,17 @@ body{
     background-position:center ;
     background-attachment: scroll;
 }
-
+ 
 .price{
     font-size: 2rem; /*for the price 0.00 on the navbar  */
     margin-top: 1rem;
 }
-
-
+ 
+ 
 .line{
 border: 0.2px solid rgb(177, 177, 177);
 }
-
+ 
 .first-line{
 margin-top: 4rem;
 color: white;
@@ -57,8 +57,8 @@ font-weight: lighter;
 margin-left: 5rem;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
+ 
+ 
 .second-line{
 line-height: 7rem;
 color: white;
@@ -67,7 +67,7 @@ margin-left: 5rem;
 margin-top: 0rem;
 margin-bottom: 2rem;
 }
-
+ 
 @media(max-width:500px){
     .second-line{
         font-size: 4rem;
@@ -85,27 +85,27 @@ margin-bottom: 2rem;
     font-weight: bold;
     color: white;
 }
-
+ 
 .Shop-Now-Btn:hover{
     background-color: white;
     color: pink;
 }
-
+ 
 .flawless{ /*design for the flawless logo */
 margin-right: 10rem;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2.5rem;
 }
-
-
+ 
+ 
 /* CODE FOR THE SECOND SECTION*/
-
+ 
 .shopping-head{
     display: flex;
     justify-content: space-around;
     margin-top: 4rem;
 }
-
+ 
 .shopping-list{
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +113,9 @@ font-size: 2.5rem;
     gap: 1.5rem;
     margin-top: 2rem;
     padding-left: 10%;
-    padding-right: 10%;   
+    padding-right: 10%;  
 }
-
+ 
 .list{
     height: 28.125rem;
     width: 16.875rem;
@@ -133,12 +133,12 @@ font-size: 2.5rem;
     width: 150px;
     cursor: pointer;
 }
-
+ 
 .shopping-btn:hover{
     background-color: pink;
     color: white;
 }
-
+ 
  label{
     font-size: 20px;
   color: black;
@@ -154,14 +154,14 @@ font-size: 2.5rem;
 .lists p{
     margin: 0;
 }
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 /* CODE FOR THE THIRD SECTION*/
-
-
+ 
+ 
 .thir{
     height: 100%;
 }
@@ -172,10 +172,6 @@ font-size: 2.5rem;
     background-color: #F8F8FF;
     gap: 3rem;
     flex-wrap: wrap;
-    height: 1200px;
-    margin-top: 20rem;
-    background-color: aliceblue;
-    margin-bottom: 5rem;
 }
 .third-section img{
     height: 41.25rem;
@@ -183,19 +179,8 @@ font-size: 2.5rem;
     padding-bottom: 8rem;
     padding-top: 8rem;
 }
-
+ 
 .third-section div{
-    border: 3px solid black;
-    width: 450px;
-    position: relative;
-    top: 15rem;
-    margin-left: 46rem; 
-}
-.third-section div h2{
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: lighter;
-    
     margin: auto 5rem ;
     width: 28.125rem;
 }
@@ -203,7 +188,7 @@ font-size: 2.5rem;
     line-height: 2.0;
     color:#959595;
 }
-.third-section-btn{ 
+.third-section-btn{
     width: 100px;
     height: 50px;
     background-color: transparent;
@@ -217,9 +202,9 @@ font-size: 2.5rem;
     cursor: pointer;
     transition: 0.3s ease-in;
 }
-
-
-
+ 
+ 
+ 
 .icons{
     padding-top: 4.375rem;
     display: flex;
@@ -229,7 +214,7 @@ font-size: 2.5rem;
     gap: 4rem;
     background-color:#F8F8FF ;
 }
-
+ 
 .icons div img{
     height: 4.375rem;
     border-radius: 50%;
@@ -241,13 +226,13 @@ font-size: 2.5rem;
     line-height: 1.5;
 }
 .custom-hr{
-    width: 75%; 
+    width: 75%;
   margin: 0 auto;
-  background-color: #b9b0b0; 
-  height: 0.2px; 
+  background-color: #b9b0b0;
+  height: 0.2px;
 }
-
-
+ 
+ 
 @media (max-width: 600px){
     .third-section img{
         height: 21.25rem;
@@ -268,10 +253,10 @@ font-size: 2.5rem;
         height: 100%;
     }
 }
-
-
+ 
+ 
 /* CODE FOR THE FOURTH SECTION */
-
+ 
 .container2{
     background-image: url(image/picture\ 7.jpg);
     background-size: cover;
@@ -281,14 +266,14 @@ font-size: 2.5rem;
     padding-top: 10rem;
  
 }
-
+ 
 .skincare-regimen-line{
     text-align: center;
-    
+   
     font-size: 60px;
     color: white;
 }
-
+ 
 .flex-container {
     display: flex;
     justify-content: center;
@@ -297,51 +282,51 @@ font-size: 2.5rem;
     margin-top: -6rem;
     margin-left: -7rem;
   }
-  
+ 
   .flex-container > div {
     background-color:transparent;
     color: white;
     width: 200px;
     height: 170px;
   }
-
+ 
   .youtube-btn{
-    height: 70px; 
+    height: 70px;
     width: 300px;
     background-color: transparent;
     color: white;
     border: 2px solid white;
   }
-
+ 
   .youtube-btn:hover {
     color: rgb(251,75,122);
     background-color: white;
   }
-
+ 
   .youtube-btn:hover .custom-btn {
     color: rgb(251,75,122);
     background-color: white;
   }
-
+ 
   .youtube-btn:hover .pink-youtube {
     color: rgb(251,75,122);
     background-color: white;
   }
-
-
+ 
+ 
   .custom-btn{
     color: white;
   }
-
+ 
   .pink-youtube .custom-btn{
     fill: white;
   }
-
-
-
+ 
+ 
+ 
   /* CODE FOR FIFTH SECTION */
-
-  
+ 
+ 
   .first-text{
     text-align: center;
     font-size: 55px;
@@ -349,9 +334,9 @@ font-size: 2.5rem;
     font-weight: lighter;
     overflow-wrap: break-word;
     margin: 0;
-    
+   
   }
-
+ 
   .second-text{
     text-align: center;
     font-size: 24px;
@@ -360,19 +345,19 @@ font-size: 2.5rem;
     font-weight: lighter;
     overflow-wrap: break-word;
     margin: 0;
-
+ 
   }
-
+ 
 .cont{
     margin-top: 8rem;
 }
-
-
-
-
+ 
+ 
+ 
+ 
 /* CODE FOR 7TH SECTION */
-
-
+ 
+ 
 .seventh-section{
     height: 100%;
     background-color: white;
@@ -386,17 +371,17 @@ font-size: 2.5rem;
     width: 70%;
     margin: 0 auto;
     margin-top: 3rem;
-
+ 
 }
 .seventh-images img{
     height: 18.75rem;
     width: 18.75rem;
     padding-left: 1rem;
 }
-
-
+ 
+ 
 /* CODE FOR EIGHT SECTION */
-
+ 
 .icons8{
     padding: 2rem;
     display: flex;
@@ -413,7 +398,7 @@ font-size: 2.5rem;
         padding-right: 2rem;
     }
 }
-
+ 
 .icons8 div img{
     height: 40px;
     border-radius: 50%;
@@ -432,12 +417,12 @@ font-size: 2.5rem;
 .icon8-subclass{
     display: flex;
 }
-
-
-
+ 
+ 
+ 
 /* CODE FOR NINTH SECTION */
-
-
+ 
+ 
 .ninth-section{
     display: flex;
     flex-direction: column;
@@ -459,11 +444,11 @@ font-size: 2.5rem;
     padding-top: 3rem;
     padding-bottom: 6rem;
 }
-
-
-
+ 
+ 
+ 
 /* CODE FOR FINAL SECTION */
-
+ 
 .final p{
     margin: 0;
     text-align: center;
