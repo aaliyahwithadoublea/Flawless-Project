@@ -149,6 +149,7 @@ margin-top: 0rem;
 margin-right: 10rem;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 40px;
+
 }
 
 .Shop-Now-Btn { /*button for the shop now*/
@@ -179,9 +180,10 @@ font-size: 40px;
 
 /* CODE FOR THE THIRD SECTION*/
 .third-section{
-    height: 100vh;
+    height: 1200px;
     margin-top: 20rem;
     background-color: aliceblue;
+    margin-bottom: 5rem;
 }
 .third-section img{
     float: left;
@@ -192,7 +194,7 @@ font-size: 40px;
     width: 470px;
 }
 .third-section div{
-    background-color: palevioletred;
+    border: 3px solid black;
     width: 450px;
     position: relative;
     top: 15rem;
