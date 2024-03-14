@@ -1,324 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Aliyah</title>
- 
+
     <link rel="stylesheet" type="text/css" href="E-commerce 1.css">
-   
+    <link rel="script" type="text/js" href="E-commerce 1.js">
+    <script src="E-commerce 1.js" async> </script>
 </head>
- 
+
 <body>
- 
- 
+
+
     <!-- FIRST SECTION -->
+
     <div class="container">
-    <section>
-       
-        <nav class="nav-bar" >
-           
-            <div class="first-nav">
-                <a>HOME</a>
-                <a>SHOP</a>
-                <a>ABOUT</a>
-                <a>CONTACT</a>
-            </div>
- 
-            <div class="flawless">
-                <a>Flawless</a>
-            </div>
- 
-            <div class="icons1">
-               <a> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-              </svg></a>
-               <a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
-                <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"/>
-              </svg><span class="price">0.00</span></a>
-               <a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
-                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
-              </svg></a>
-            </div>
-        </nav>
-        <hr class="line">
-        <p class="first-line">WELCOME TO FLAWLESS STORE</p>
-        <h4 class="second-line">The Best Skin <br>
-        Cleanser for <br>
-        You</h4> <span> <input type="button" value="SHOP NOW" class="Shop-Now-Btn"></span>
-    </section>
- 
-        </div>
- 
-        <!-- SECOND SECTION -->
- 
+        <section>
+            <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+            <nav class="nav-bar">
+
+                <div class="first-nav">
+                    <a>HOME</a>
+                    <a>SHOP</a>
+                    <a>ABOUT</a>
+                    <a>CONTACT</a>
+                </div>
+
+                <div class="flawless">
+                    <a>Flawless</a>
+                </div>
+
+                <div class="icons1">
+                    <a> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg></a>
+                    <a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                            <path
+                                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z" />
+                        </svg><span class="price">0.00</span></a>
+                    <a><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            class="bi bi-bag-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z" />
+                        </svg></a>
+                </div>
+            </nav>
+            <hr class="line">
+            <p class="first-line">WELCOME TO FLAWLESS STORE</p>
+            <h4 class="second-line">The Best Skin <br>
+                Cleanser for <br>
+                You</h4> <span> <input type="button" value="SHOP NOW" class="Shop-Now-Btn"></span>
+        </section>
+
+    </div>
+
+    <!-- SECOND SECTION -->
+
     <div class="shopping">
         <div class="shopping-head">
             <h2 class="new-Arrival">New Arrivals</h2>
             <button class="shopping-btn"> SHOP NOW</button>
         </div>
         <div class="shopping-list">
-           <div class="lists"> <img class="list" src="./Lotion Images/hybrid-cleansing.jpg" alt="">
-            <p class="list-p">Cleanser</p>
-            <p>Hybrid Cleansing Balm</p>
-            <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-            <p>$32.90</p>
-       
-        </div>
-           <div class="lists"><img class="list" src="./Lotion Images/sooting-sunscreen.jpg" alt="">
-            <p class="list-p">Sunscreen</p>
-            <p>Soothing Sunscreen Gel</p>
-            <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-            <p>$32.90</p>
-        </div>
-            <div class="lists"><img class="list" src="./Lotion Images/energizing-marine.jpg" alt="">
+            <div class="lists">
+                <img class="list" src="./Lotion Images/energizing-marine.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Body lotion</p>
                 <p>Energizing Marine Lotion</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-            <div class="lists"><img class="list" src="./Lotion Images/calm-hydrate.jpg" alt="">
+            <div class="lists">
+                <img class="list" src="./Lotion Images/sooting-sunscreen.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
+                <p class="list-p">Sunscreen</p>
+                <p>Soothing Sunscreen Gel</p>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p>$32.90</p>
+            </div>
+            
+                <div class="lists">
+                    <img class="list" src="./Lotion Images/hybrid-cleansing.jpg" alt="">
+                   <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>                    
+
+                <p class="list-p">Cleanser</p>
+                <p>Hybrid Cleansing Balm</p>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p>$32.90</p>
+                
+            </div>
+
+            
+           
+                    <!--  -->
+           
+            <!--  -->
+            <div class="lists">
+                <img class="list" src="./Lotion Images/calm-hydrate.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Bundles</p>
                 <p>Calm Hydrating Moisturizers</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-            <div class="lists"><img class="list" src="./Lotion Images/makeup-melting.jpg" alt="">
+
+            <!--  -->
+            <div class="lists">
+                <img class="list" src="./Lotion Images/makeup-melting.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Cleanser</p>
                 <p>Makeup Melting Cleanser</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-            <div class="lists"><img class="list" src="./Lotion Images/balancing.jpg" alt="">
+
+
+            <div class="lists">
+                <img class="list" src="./Lotion Images/balancing.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Cleanser</p>
                 <p>Balancing Daily Cleanser</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-            <div class="lists"><img class="list" src="./Lotion Images/hydrating-gel.jpg" alt="">
+
+            <!--  -->
+            <div class="lists">
+                <img class="list" src="./Lotion Images/hydrating-gel.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Moisturizer</p>
                 <p>Hydrating Gel Oil</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-            <div class="lists"><img class="list" src="./Lotion Images/cleanser-conce.jpg" alt="">
+
+            <!--  -->
+            <div class="lists">
+                <img class="list" src="./Lotion Images/cleanser-conce.jpg" alt="">
+                <div class="img-wrapper"> 
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="currentColor" class="bi bi-basket2 cart-icon1" viewBox="0 0 16 16">
+                        <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0z" />
+                        <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6z" />
+                    </svg>
+                    </div>     
                 <p class="list-p">Cleanser</p>
                 <p>Cleanser Concentrate</p>
-                    <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-                    <p>$32.90</p>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p>$32.90</p>
             </div>
         </div>
     </div>
- 
- 
- 
+
+
+
     <!-- THIRD SECTION -->
- 
-<div class="thir" style="background-color: #F8F8FF; width: 100%; ;">
-  <div class="third-section">
-    <img src="./Lotion Images/beauty flaw.jpg" alt="">
-<div>
-    <h2>Beauty Flawless Skin</h2>
-    <p>Enim lectus mauris faucibus turpis convallis ipsum odio lorem dignissim id odio sed enim nullam venenatis erat in cursus tortor tristique aliquam nulla quis.</p>
-       <p> Aliquam scelerisque scelerisque ac laoreet laoreet faucibus vestibulum fringilla ut aliquet dictumst dignissim id eget cras nulla venenatis dictum tristique faucibus lectus egestas aenean placerat dolor dolor phasellus eros vestibulum velit turpis ornare facilisis ante ornare.</p>
-    <button class="third-section-btn">Read More</button>
-</div>
-  </div>
-  <hr class="custom-hr" >
-  <div class="icons">
-    <div>
-        <img src="./Lotion Images/pink.jpeg" alt="">
-        <p>All Skin Types</p>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-    </div>
-    <div>
-        <img src="./Lotion Images/pink.jpeg" alt="">
-        <p>Pure Organic</p>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-    </div>
-    <div>
-        <img src="./Lotion Images/pink.jpeg" alt="">
-        <p>Natural Care</p>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-    </div>
-  </div>
-</div>
- 
- 
- 
- 
-    <!-- FOURTH SECTION -->
- 
- 
- 
-  <section class="fourth-section">
-    <div class="container2">
-        <h4 class="skincare-regimen-line">Flawless Skincare <br>
-        Regimen</h4>
-        <div class="flex-container">
+
+    <div class="thir" style="background-color: #F8F8FF; width: 100%; ;">
+        <div class="third-section">
+            <img src="./Lotion Images/beauty flaw.jpg" alt="">
             <div>
-            <button class="youtube-btn">
-            <span class="custom-btn">WATCH THE VIDEOS </span>&nbsp;
-            <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-</svg></button></div>
-          </div>
+                <h2>Beauty Flawless Skin</h2>
+                <p>Enim lectus mauris faucibus turpis convallis ipsum odio lorem dignissim id odio sed enim nullam
+                    venenatis erat in cursus tortor tristique aliquam nulla quis.</p>
+                <p> Aliquam scelerisque scelerisque ac laoreet laoreet faucibus vestibulum fringilla ut aliquet dictumst
+                    dignissim id eget cras nulla venenatis dictum tristique faucibus lectus egestas aenean placerat
+                    dolor dolor phasellus eros vestibulum velit turpis ornare facilisis ante ornare.</p>
+                <button class="third-section-btn">Read More</button>
+            </div>
+        </div>
+        <hr class="custom-hr">
+        <div class="icons">
+            <div>
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <p>All Skin Types</p>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+            </div>
+            <div>
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <p>Pure Organic</p>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+            </div>
+            <div>
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <p>Natural Care</p>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+            </div>
+        </div>
     </div>
-</section>
- 
- 
- 
+
+
+
+
+    <!-- FOURTH SECTION -->
+
+
+
+    <section class="fourth-section">
+        <div class="container2">
+            <h4 class="skincare-regimen-line">Flawless Skincare <br>
+                Regimen</h4>
+            <div class="flex-container">
+                <div>
+                    <button class="youtube-btn">
+                        <span class="custom-btn">WATCH THE VIDEOS </span>&nbsp;
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- FIFTH SECTION -->
- 
- 
- 
-<section class="fifth-section">
-    <div class="cont">
-    <h4 class="first-text">Most Loved by the Customers</h4>
-    <h5 class="second-text">Mauris lacus nunc pellentesque eget bibendum vitae scelerisque</h5 >
+
+
+
+    <section class="fifth-section">
+        <div class="cont">
+            <h4 class="first-text">Most Loved by the Customers</h4>
+            <h5 class="second-text">Mauris lacus nunc pellentesque eget bibendum vitae scelerisque</h5>
         </div>
- 
-    </div>
+
+        </div>
         <div class="shopping-list" style="padding-bottom: 80px;">
-           <div class="lists"> <img class="list" src="./Lotion Images/hybrid-cleansing.jpg" alt="">
-            <p class="list-p">Cleanser</p>
-            <p>Hybrid Cleansing Balm</p>
-            <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-            <p>$32.90</p>
-       
-        </div>
-           <div class="lists"><img class="list" src="./Lotion Images/sooting-sunscreen.jpg" alt="">
-            <p class="list-p">Sunscreen</p>
-            <p>Soothing Sunscreen Gel</p>
-            <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-            <p>$32.90</p>
-        </div>
+            <div class="lists"> <img class="list" src="./Lotion Images/hybrid-cleansing.jpg" alt="">
+                <p class="list-p">Cleanser</p>
+                <p>Hybrid Cleansing Balm</p>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p>$32.90</p>
+
+            </div>
+            <div class="lists"><img class="list" src="./Lotion Images/sooting-sunscreen.jpg" alt="">
+                <p class="list-p">Sunscreen</p>
+                <p>Soothing Sunscreen Gel</p>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p>$32.90</p>
+            </div>
             <div class="lists"><img class="list" src="./Lotion Images/energizing-marine.jpg" alt="">
                 <p class="list-p">Body lotion</p>
                 <p>Energizing Marine Lotion</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>3
             <div class="lists"><img class="list" src="./Lotion Images/calm-hydrate.jpg" alt="">
                 <p class="list-p">Bundles</p>
                 <p>Calm Hydrating Moisturizers</p>
-                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
                 <p>$32.90</p>
             </div>
-</section>
-   
- 
- 
-<!-- 6TH SECTION -->
- 
-<div style="background-color: #F8F8FF;">
-    <h2 style="text-align: center; padding-top: 6rem; font-size: 40px;">What Our Customers Says</h2>
-    <div class="icons">
-    <div>
-       
-        <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-        <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
-        <p>Jennifer Lewis</p>
-    </div>
-    <div>
-       
-        <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-        <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
-        <p>Jennifer Lewis</p>
-    </div>
-    <div>
-       
-        <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label for="star2">☆</label><label for="star1">☆</label>
-        <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui dolor.</p>
-        <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
-        <p>Jennifer Lewis</p>
-    </div>
-  </div>
-</div>
- 
- 
-<!-- 7TH SECTIONNN -->
-<div class="seventh-section">
-    <p style="text-align: center; padding-top: 4rem; font-size: 30px;">Follow us  @FlawlessCleaner</p>
-    <div class="seventh-images">
-        <img src="./seventh images folder/image-one.jpg" alt="">
-        <img src="./seventh images folder/image-one.jpg" alt="">
-        <img src="./seventh images folder/image-one.jpg" alt="">
-        <img src="./seventh images folder/image-one.jpg" alt="">
-        <img src="./seventh images folder/image-one.jpg" alt="">
-        <img src="./seventh images folder/image-one.jpg" alt="">
- 
-    </div>
- 
-</div>
- 
- 
- 
-<!-- 8TH SECTION -->
- 
- 
-<div class="eight-section">
- 
-    <div class="icons8">
-        <div class="icon8-subclass">
-            <img src="./Lotion Images/pink.jpeg" alt="" >
+    </section>
+
+
+
+    <!-- 6TH SECTION -->
+
+    <div style="background-color: #F8F8FF;">
+        <h2 style="text-align: center; padding-top: 6rem; font-size: 40px;">What Our Customers Says</h2>
+        <div class="icons">
             <div>
-            <p>All Skin Types</p>
-            <p style="color: #b9b0b0;">Morbi nullam odio lectus.</p>
-        </div>
-        </div>
-        <div class="icon8-subclass">
-            <img src="./Lotion Images/pink.jpeg" alt="">
+
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+                <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
+                <p>Jennifer Lewis</p>
+            </div>
             <div>
-            <p>Pure Organic</p>
-            <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
-        </div>
-        </div>
-        <div class="icon8-subclass">
-            <img src="./Lotion Images/pink.jpeg" alt="">
+
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+                <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
+                <p>Jennifer Lewis</p>
+            </div>
             <div>
-            <p>Natural Care</p>
-            <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
+
+                <label for="star5">☆</label><label for="star4">☆</label><label for="star3">☆</label><label
+                    for="star2">☆</label><label for="star1">☆</label>
+                <p style="color: #b9b0b0;">Morbi nullam odio lectus vitae lorem in non tortor aliquet eget faucibus dui
+                    dolor.</p>
+                <img style="height: 50px;" src="./Lotion Images/pink.jpeg" alt="">
+                <p>Jennifer Lewis</p>
+            </div>
         </div>
+    </div>
+
+
+    <!-- 7TH SECTIONNN -->
+    <div class="seventh-section">
+        <p style="text-align: center; padding-top: 4rem; font-size: 30px;">Follow us @FlawlessCleaner</p>
+        <div class="seventh-images">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+            <img src="./seventh images folder/image-one.jpg" alt="">
+
         </div>
-        <div class="icon8-subclass">
-            <img src="./Lotion Images/pink.jpeg" alt="">
-            <div>
-            <p>Natural Care</p>
-            <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
+
+    </div>
+
+
+
+    <!-- 8TH SECTION -->
+
+
+    <div class="eight-section">
+
+        <div class="icons8">
+            <div class="icon8-subclass">
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <div>
+                    <p>All Skin Types</p>
+                    <p style="color: #b9b0b0;">Morbi nullam odio lectus.</p>
+                </div>
+            </div>
+            <div class="icon8-subclass">
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <div>
+                    <p>Pure Organic</p>
+                    <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
+                </div>
+            </div>
+            <div class="icon8-subclass">
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <div>
+                    <p>Natural Care</p>
+                    <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
+                </div>
+            </div>
+            <div class="icon8-subclass">
+                <img src="./Lotion Images/pink.jpeg" alt="">
+                <div>
+                    <p>Natural Care</p>
+                    <p style="color: #b9b0b0;">Morbi nullam odio lectus .</p>
+                </div>
+            </div>
         </div>
+
+    </div>
+
+
+    <!-- 9TH SECTION -->
+    <div class="ninth-section">
+        <h2>Flawless</h2>
+        <div class="ninth-sub">
+            <p>Home</p>
+            <p>Shop</p>
+            <p>About</p>
+            <p>Contact</p>
         </div>
-      </div>
- 
-</div>
- 
- 
-<!-- 9TH SECTION -->
-<div class="ninth-section">
-<h2>Flawless</h2>
-<div class="ninth-sub">
-    <p>Home</p>
-    <p>Shop</p>
-    <p>About</p>
-    <p>Contact</p>
-</div>
-<div class="ninth-sub-sub">
-    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></p>
-    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg></p>
-    <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg></p>
-</div>
-</div>
- 
-<!-- FINAL SECTION -->
-<div class="final">
-    <p>@2024  Skin Cleanser Store. Powered by Skin Cleanser Store.</p>
-</div>
- 
- 
+        <div class="ninth-sub-sub">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter;">
+                    <path
+                        d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z">
+                    </path>
+                    <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                    <path
+                        d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z">
+                    </path>
+                </svg></p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter;">
+                    <path
+                        d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z">
+                    </path>
+                </svg></p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);transform: msFilter;">
+                    <path
+                        d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+                    </path>
+                </svg></p>
+        </div>
+    </div>
+
+    <!-- FINAL SECTION -->
+    <div class="final">
+        <p>@2024 Skin Cleanser Store. Powered by Skin Cleanser Store.</p>
+    </div>
+
+
     <script src="E-commerce 1.js" charset="UTF-8"></script>
-   
- 
+
+
 </body>
+
 </html>
