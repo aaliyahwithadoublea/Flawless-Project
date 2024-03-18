@@ -67,6 +67,7 @@ margin-left: 5rem;
 margin-top: 0rem;
 margin-bottom: 2rem;
 }
+/* MEDIA QUERY FOR NAV BAR */
 
 @media(max-width:500px){
     .second-line{
@@ -97,6 +98,9 @@ margin-bottom: 2rem;
     width: 120px;
    
 }
+
+/*  */
+
 
 }
 .Shop-Now-Btn { /*button for the shop now*/
